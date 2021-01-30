@@ -47,4 +47,4 @@ class Room:
             return False
     
     def __str__(self):
-        
+        return "Room Number: {}\nOccupant name: {}\nSmoking room: {}\nBed Type: {}\nRate : {}\n\n".format(self.__room_number,self.__occupantName,self.__smoking_type, self.__bedtype , self.__price)          
